@@ -29,7 +29,7 @@ public class PolicyController {
 	public ResponseEntity<List<Policy>> listPolicies(){
 		logger.info("listPolicies");
 		List<Policy> policies = policyService.getPolicyList();
-		return new ResponseEntity<List<Policy>>(policies, HttpStatus.FOUND);
+		return new ResponseEntity<List<Policy>>(policies, HttpStatus.OK);
 	}
 	
 }
