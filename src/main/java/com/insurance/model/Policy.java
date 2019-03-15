@@ -37,7 +37,7 @@ public class Policy implements Serializable {
 	@Column(name="MAGE")
 	private Integer maturityage;
 	
-//	@Column(name="PREMIUM")
+	@Column(name="POLICYTERM")
 	private String policyterm;
 	
 	@Column(name="PREMIUM")
